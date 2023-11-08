@@ -1,0 +1,103 @@
+
+footer{
+    margin-top: 1px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(footer-background.jpg);
+    background-size: cover;
+    color:#fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 15px;
+    height: 270px;
+}
+
+.header{
+    height: 120px;
+width: 85%;
+margin: auto;
+margin-top: -88px;
+align-items: flex-start;
+justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+}
+
+.card{
+    flex-basis:20%;
+    padding: 4px;
+
+}
+
+.card h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    color: rgba(255,255,144);
+    position: relative;
+    font-size: 21px;
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+}
+
+.card h4{
+    width: fit-content;
+    margin-bottom: 40px;
+    color: rgba(255,255,144);
+    position: relative;
+    font-size: 19px;
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+}
+
+
+.text{
+    width: fit-content;
+    font-size: 17px;
+    margin: 20px 0;
+    padding: 0px;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
+
+.card p{
+list-style: none;
+margin-bottom: 12px;
+}
+
+.card p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.img{
+    width: 100px;
+  height: 20px;
+}
+
+
+.media{
+    text-align: center;
+}
+
+.media i{
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+hr{
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    margin: 50px auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.Copy{
+    text-align: center;
+    padding: 20px;
+    margin-top: -14px;
+    
+}

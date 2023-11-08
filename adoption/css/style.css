@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;700&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Slab';
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+header h3{
+    color: #fff;
+}
+.heading {
+    font-size: 1.9rem;
+}
+
+/* Header */
+header {
+    height: 98vh;
+    background-color:  rgba(0, 0, 0, 0.66);
+    background-image: url(../img/adoption01.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.logo a {
+    color: #fff;
+}
+
+p.motto {
+    font-weight: 100;
+}
+
+div.hero {
+    /* display: flex;
+    flex-direction: column; */
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    line-height: 1.1;
+}
+
+div.hero span {
+    display: block;
+    font-size: 2.5rem;
+    /* line-height: 2; */
+}
+
+div.hero span.quot1,
+div.hero span.quot2 {
+    text-transform: uppercase;
+}
+
+div.hero span.quot1 {
+    font-size: 3rem;
+}
+
+div.hero span.quot2 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+}
+
+div.hero span.quot3,
+div.hero span.quot4 {
+    font-weight: 100;
+}
+
+div.hero span.quot5 {
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+div.hero a.btn {
+    margin-top: 1rem;
+    padding: 1rem 1.8rem;
+    background-color: rgb(211, 95, 17);
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: .2rem;
+}
+
+/* PROGRAMS SECTION */
+.programs {
+    margin: 5rem 25rem;
+    text-align: center;
+}
+
+.programs__heading {
+    margin-bottom: 1.5rem;
+}
+
+.programs__gallery {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.programs img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.programs__gallery .gallery__img2 {
+    margin: 0 .2rem;
+}
+
+
+/* DIFFERENCE SECTION */
+
+.difference {
+    width: 100%;
+    padding: 5rem 25rem;
+    background-color: rgb(13, 3, 22);
+    color: rgb(190, 190, 190);
+    text-align: center;
+}
+
+.difference__heading {
+    padding-bottom: 2rem;
+}
+
+.difference__cards {
+    display: flex;
+}
+
+.difference__card {
+    padding: 1.5rem;
+}
+
+.card__image {
+    margin-bottom: 1.5rem;
+    /* width: 5rem; */
+    /* color:rgb(13, 3, 22);
+    background-color: rgb(190, 190, 190);
+    border-radius: 100%; */
+}
+
+.card__image .fas {
+    color:rgb(13, 3, 22);
+    background-color: rgb(190, 190, 190);
+    border-radius: 100%;
+    padding: 1.2rem 1rem;
+}
+
+.difference__card h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.difference__card p {
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+/* Letter Section */
+.letter {
+    margin: 5rem 25rem;
+    text-align: center;
+}
+
+.letter__heading {
+    padding-bottom: 2rem;
+}
+
+.img__text {
+    display: flex;
+}
+
+.letter__image {
+    padding: 1.5rem;
+}
+
+.letter__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.letter__text p {
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.letter__text p:first-child {
+    /* margin-bottom: 1.5rem; */
+    padding-bottom: 0;
+}
+
+/* HELP SECTION */
+.help {
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.help__img {
+    background-color: rgba(0, 0, 0, 0.479);
+    background-image: url('../img/help2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: auto;
+    width: 50%;
+}
+
+/* .help__img img {
+    width: 100%;
+    height: auto;
+} */
+
+.help__text {
+    width: 50%;
+    padding: 5rem 23rem 5rem 5rem;
+    background-color: rgb(13, 3, 22);
+    color: rgb(190, 190, 190);
+    text-align: justify;
+}
+
+.help__text .help__heading {
+    margin-bottom: 2rem;
+}
+
+.help__text span {
+    display: block;
+}
+
+.help__text p {
+    line-height: 1.5;
+}
+
+/* HERO FOOTER SECTION */
+
+.hero__footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../img/toddler.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 60vh;
+    position: relative;
+    color: rgb(190, 190, 190);
+}
+
+.hero__footer .hero {
+    z-index: 2;
+    top: 25%;
+    left: 18%;
+    line-height: 1.3;
+    /* border: 1px solid #000; */
+}
+
+
