@@ -1,5 +1,5 @@
 <?php
-$server="localhost";
+$server="ccl-db.crdfhsvbtbw6.us-east-1.rds.amazonaws.com";
 $username="root";
 $password="";
 
