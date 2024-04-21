@@ -1,5 +1,5 @@
 <?php
-$server="ccl-db.crdfhsvbtbw6.us-east-1.rds.amazonaws.com";
+$server="ccl-mp1.crdfhsvbtbw6.us-east-1.rds.amazonaws.com";
 $username="admin";
 $password="1234";
 
