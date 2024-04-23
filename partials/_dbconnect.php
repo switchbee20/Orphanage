@@ -1,7 +1,7 @@
 <?php
-$server="ccl-mp1.crdfhsvbtbw6.us-east-1.rds.amazonaws.com";
+$server="ccl-db.crdfhsvbtbw6.us-east-1.rds.amazonaws.com";
 $username="admin";
-$password="1234";
+$password="pooja1234";
 
 $database="users";
 $conn=mysqli_connect($server,$username,$password,$database);
